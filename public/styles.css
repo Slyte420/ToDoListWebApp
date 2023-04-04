@@ -1,0 +1,74 @@
+body {
+    background: beige;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+/*ID*/
+#button1 {
+    color: red;
+}
+
+/*Class*/
+.button1 {
+    color: blue;
+}
+
+.button-dark {
+    background: orange;
+}
+
+.app {
+    display: flexbox;
+    justify-content: center;
+    margin: 0 auto;
+    width: max-content;
+    background: #40bf77;
+}
+
+.ListContainer {
+    width: 400px;
+
+    padding: 20px 10px 10px 20px;
+    background: #e54624;
+    color: white;
+}
+
+.ListContainer>h3 {
+    margin: 10;
+    text-decoration: underline;
+}
+
+
+
+.list {
+    background: #444;
+    padding: 0;
+    margin: 0;
+}
+
+.list label {
+    color: #40bf77;
+    display: inline;
+}
+
+
+
+.list div:hover {
+    color: #fff;
+    background: #264b69;
+}
+
+input:checked+label {
+    text-decoration: line-through;
+    color: red;
+}
+
+.list li .inputForm {
+    display: block;
+    justify-content: start;
+    width: 100px;
+    height: 100px;
+    width: fit-content;
+}
